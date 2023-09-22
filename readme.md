@@ -5,7 +5,4 @@
     1    How to start.txt 
     2    Data Types
     3    Format Specifiers
-    s
-
-
-
+    
