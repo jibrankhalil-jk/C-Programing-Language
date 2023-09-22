@@ -1,0 +1,46 @@
+To run c files you must have a c compiler installed in your computer
+
+Most used c compiler is gcc ( GNU Compiler Collection )
+
+got to  https://gcc.gnu.org/ to download the compiler
+.
+.
+.
+
+
+after installing the compiler follow thes steps to compile the a c program
+
+1 (without changing the output name )
+      gcc [c file name with .c extension ]
+      e.g  gcc mycprogram.c
+    this will compile the mycprogram.c and will generate an output file with a.exe 
+    a.exe is an executable file which can be run directly clicking on the file or 
+    type this comman
+    ./a.exe
+
+2 (changing the output file name)
+      gcc [c file name with .c extension ] -o [output file name]
+      e.g  gcc mycprogram.c -o program
+    this will compile the mycprogram.c and will generate an output file with the name you provided
+    like program
+    program.exe is an executable file which can be run directly clicking on the file or 
+    type this 
+    ./program.exe
+
+
+summary 
+     you have to first compile the c program and then run the executable file 
+        example 1
+            gcc mycprogram.c 
+            ./a.exe 
+         example 2
+            gcc mycprogram.c -o program
+            ./program.exe
+
+
+ ** Trick
+    comple and run in a single command like this
+    example 1
+      gcc cprogram.c ; ./a 
+    example 1
+     gcc cprogram.c -o program ; ./program
